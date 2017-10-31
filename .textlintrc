@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "preset-japanese": true,
+    "spellcheck-tech-word": true,
+    "preset-ja-technical-writing": {
+      "ja-no-mixed-period": {
+        "periodMark": "．"
+    },
+    }
+  }
+}
