@@ -1,11 +1,17 @@
 {
   "rules": {
-    "preset-japanese": true,
+    "preset-japanese": {
+      "sentence-length": false
+    },
     "spellcheck-tech-word": true,
     "preset-ja-technical-writing": {
       "ja-no-mixed-period": {
-        "periodMark": "．"
+        "periodMark": "．",
+      },
+      "sentence-length": false
     },
+    "prh": {
+     "rulePaths" :["~/prh.yml"]
     }
   }
 }
